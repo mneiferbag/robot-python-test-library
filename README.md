@@ -8,6 +8,8 @@ Licensed under the MIT License. See file [LICENSE](./LICENSE).
 
 ## How To Run
 
+This example can be run as follows.
+
 Create virtual environment with `python -m venv .venv`.
 
 Restore packages with `pip install -r requirements.txt`.
@@ -18,6 +20,8 @@ Run test with Python keywords using `robot --pythonpath src --outputdir ./log ./
 
 Command line option `--pythonpath`is not necessary when you set environment variable `PYTHONPATH`.
 
+For more information on extending Robot Framework with test libraries written in Python, see chapter [Creating test libraries](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-test-libraries) in the user guide.
+
 ## Links
 
 - Robot Framework
@@ -26,4 +30,5 @@ Command line option `--pythonpath`is not necessary when you set environment vari
 
 ## Tasks
 
-- [ ] Create hello world example
+- [ ] Create list variable example
+- [x] Create hello world example
