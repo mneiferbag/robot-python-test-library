@@ -4,6 +4,8 @@ Licensed under the MIT License. See file [LICENSE](./LICENSE).
 
 [Robot Framework](https://robotframework.org/) example for test library implemented in Python. Example includes code written in Robot Framework and Python.
 
+[![CodeQL](https://github.com/mneiferbag/robot-python-test-library/actions/workflows/codeql.yml/badge.svg)](https://github.com/mneiferbag/robot-python-test-library/actions/workflows/codeql.yml)
+
 ## How To Run
 
 Create virtual environment with `python -m venv .venv`.
