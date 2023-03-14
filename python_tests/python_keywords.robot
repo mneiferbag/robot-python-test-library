@@ -9,14 +9,12 @@ Library          MncPythonLibrary
 
 
 *** Test Cases ***
-Keyword Argument Conversion Test
-    [Documentation]    Testing integer, string and list datatypes.
-    @{MY_LIST} =    Create List    foo    bar
-
+Integer Argument Conversion Test
     ${x} =    Sum As String    ${5}    ${20}
     Should Be Equal    ${x}    25
 
-#    ${y} =    Join Strings    @{MY_LIST}
-#    Should Be Equal    ${y}    "foo,bar"
+List Argument Conversion Test
+    @{MY_LIST} =    Create List    foo    bar
 
-    Log To Console    ${MY_LIST}[0]
+    ${y} =    Join Strings    ${MY_LIST}
+    Should Be Equal    ${y}    foo,bar
