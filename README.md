@@ -20,10 +20,10 @@ Command line option `--pythonpath`is not necessary when you set environment vari
 
 ## Links
 
-* Robot Framework
-  * [FTP and Database Example](https://github.com/mneiferbag/robot-ftp-db)
-  * [Test Library Example Rust](https://github.com/mneiferbag/robot-rust-test-library)
+- Robot Framework
+  - [FTP and Database Example](https://github.com/mneiferbag/robot-ftp-db)
+  - [Test Library Example Rust](https://github.com/mneiferbag/robot-rust-test-library)
 
 ## Tasks
 
-* [] Create hello world example
+- [ ] Create hello world example
