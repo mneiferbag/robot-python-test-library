@@ -12,3 +12,10 @@ def sum_as_string(first_number: int, second_number: int) -> str:
 def join_strings(string_list: list[str]) -> str:
     """Keyword to return the comma separated list of strings."""
     return ",".join(string_list)
+
+def sum_values(values_dict: dict[str, int]) -> int:
+    """Keyword to return the sum of the values for all keys in the dictionary."""
+    values_sum: int = 0
+    for _, value in values_dict.items():
+        values_sum += int(value) # TODO: check why cast is needed
+    return values_sum
