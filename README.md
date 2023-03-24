@@ -32,5 +32,5 @@ For more information on extending Robot Framework with test libraries written in
 
 ## Tasks
 
-- [ ] Create dictionary variable example
+- [x] Create dictionary variable example
 - [x] Create list variable example
