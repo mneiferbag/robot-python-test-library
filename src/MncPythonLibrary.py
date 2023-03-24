@@ -17,5 +17,5 @@ def sum_values(values_dict: dict[str, int]) -> int:
     """Keyword to return the sum of the values for all keys in the dictionary."""
     values_sum: int = 0
     for _, value in values_dict.items():
-        values_sum += int(value) # TODO: check why cast is needed
+        values_sum += value
     return values_sum
