@@ -32,5 +32,6 @@ For more information on extending Robot Framework with test libraries written in
 
 ## Tasks
 
+- [ ] Add unit tests
 - [x] Create dictionary variable example
 - [x] Create list variable example
